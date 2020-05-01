@@ -1,0 +1,88 @@
+@use '../../vendor/tcg/voyager/resources/assets/sass/colors.scss' with (
+
+    $loader-background-color        : 'bg-gray-100',
+    $loader-text-color              : 'text-black',
+    $loader-background-color-dark   : 'bg-gray-800',
+    $loader-text-color-dark         : 'text-gray-200',
+
+    $primary-text-color             : 'text-red-700',
+    $primary-text-color-dark        : 'text-red-300',
+
+    $link-text-color                : 'text-red-600',
+    $link-text-color-dark           : 'text-red-600',
+
+    $input-background-color      : 'bg-white',
+    $input-disabled-color        : 'bg-gray-200',
+    $input-border-color          : 'border-gray-400',
+    $input-text-color            : 'text-red-800',
+
+    $input-background-color-dark : 'bg-gray-700',
+    $input-disabled-color-dark   : 'bg-gray-800',
+    $input-border-color-dark     : 'border-gray-600',
+    $input-text-color-dark       : 'text-red-200',
+
+    $sidebar-title-color            : 'text-red-200',
+    $sidebar-icon-color             : 'text-red-200',
+    $sidebar-background-color       : 'bg-gray-800',
+    $sidebar-item-text-color        : 'text-red-300',
+    $sidebar-item-icon-color        : 'text-red-300',
+    $sidebar-item-active-background : 'bg-gray-700',
+    $sidebar-item-active-text-color : 'text-red-300',
+    $sidebar-item-active-icon-color : 'text-red-300',
+    $sidebar-item-hover-background  : 'bg-gray-600',
+    $sidebar-border-color           : 'border-gray-600',
+
+    $sidebar-title-color-dark            : 'text-red-200',
+    $sidebar-icon-color-dark             : 'text-red-200',
+    $sidebar-background-color-dark       : 'bg-gray-800',
+    $sidebar-item-text-color-dark        : 'text-red-300',
+    $sidebar-item-icon-color-dark        : 'text-red-300',
+    $sidebar-item-active-background-dark : 'bg-gray-900',
+    $sidebar-item-active-text-color-dark : 'text-red-200',
+    $sidebar-item-active-icon-color-dark : 'text-red-200',
+    $sidebar-item-hover-background-dark  : 'bg-gray-700',
+    $sidebar-border-color-dark           : 'border-gray-700',
+
+    $cards-background-color      : 'bg-white',
+    $cards-border-color          : 'border-gray-400',
+    $cards-text-color            : 'text-red-500',
+    $cards-title-text-color      : 'text-gray-700',
+
+    $cards-background-color-dark : 'bg-gray-800',
+    $cards-border-color-dark     : 'border-gray-700',
+    $cards-text-color-dark       : 'text-red-500',
+    $cards-title-text-color-dark : 'text-gray-300',
+
+    $notification-background-color:         'bg-white',
+    $notification-title-color:              'text-gray-900',
+    $notification-message-color:            'text-gray-500',
+
+    $notification-background-color-dark:    'bg-gray-800',
+    $notification-title-color-dark:         'text-gray-100',
+    $notification-message-color-dark:       'text-gray-500',
+
+    $label-text-color            : 'text-gray-800',
+    $label-text-color-dark       : 'text-gray-200',
+    $description-text-color      : 'text-gray-800',
+    $description-text-color-dark : 'text-gray-200',
+
+    $table-background-color                     : 'bg-white',
+    $table-border-color                         : 'border-gray-300',
+    $table-head-background-color                : 'bg-gray-100',
+    $table-head-text-color                      : 'text-black',
+    $table-row-even-background-color            : 'bg-gray-100',
+    $table-row-odd-background-color             : 'bg-gray-100',
+    $table-row-even-background-color-hover      : 'bg-gray-100',
+    $table-row-odd-background-color-hover       : 'bg-gray-200',
+    $table-row-border-color                     : 'border-gray-300',
+
+    $table-background-color-dark                : 'bg-gray-800',
+    $table-border-color-dark                    : 'border-gray-600',
+    $table-head-background-color-dark           : 'bg-gray-700',
+    $table-head-text-color-dark                 : 'text-gray-400',
+    $table-row-even-background-color-dark       : 'bg-gray-800',
+    $table-row-odd-background-color-dark        : 'bg-gray-700',
+    $table-row-even-background-color-hover-dark : 'bg-gray-700',
+    $table-row-odd-background-color-hover-dark  : 'bg-gray-600',
+    $table-row-border-color-dark                : 'border-gray-600',
+)

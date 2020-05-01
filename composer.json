@@ -1,0 +1,27 @@
+{
+    "name": "voyager-admin/voyager-theme-boilerplate",
+    "description": "A theme boilerplate for Voyager 2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christoph Schweppe",
+            "email": "info@cschweppe.de"
+        }
+    ],
+    "require": {
+        "tcg/voyager": "2.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "VoyagerAdmin\\VoyagerThemeBoilerplate\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "VoyagerAdmin\\VoyagerThemeBoilerplate\\VoyagerThemeBoilerplateServiceProvider"
+            ]
+        }
+    }
+}
