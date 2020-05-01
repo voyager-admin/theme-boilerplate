@@ -1,18 +1,18 @@
 <?php
 
-namespace VoyagerAdmin\VoyagerThemeBoilerplate;
+namespace VoyagerAdmin\ThemeBoilerplate;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Route;
 use Illuminate\View\View;
 use TCG\Voyager\Contracts\Plugins\IsThemePlugin;
 
-class VoyagerThemeBoilerplate implements IsThemePlugin
+class ThemeBoilerplate implements IsThemePlugin
 {
-    public $name = 'Voyager theme boilerplate';
+    public $name = 'Theme boilerplate';
     public $description = 'A theme boilerplate for Voyager 2';
-    public $repository = 'voyager-admin/voyager-theme-boilerplate';
-    public $website = 'https://github.com/voyager-admin/voyager-theme-boilerplate';
+    public $repository = 'voyager-admin/theme-boilerplate';
+    public $website = 'https://github.com/voyager-admin/theme-boilerplate';
     public $version = '1.0.0';
 
     public function getInstructionsView(): ?View
@@ -27,7 +27,7 @@ class VoyagerThemeBoilerplate implements IsThemePlugin
 
     public function registerPublicRoutes()
     {
-        Route::get('voyager-theme-boilerplate.css', function () {
+        Route::get('theme-boilerplate.css', function () {
             $path = realpath(dirname(__DIR__, 1).'/resources/dist/styles.css');
             $response = response(File::get($path), 200, ['Content-Type' => 'text/css']);
             $response->setSharedMaxAge(31536000);
@@ -35,7 +35,7 @@ class VoyagerThemeBoilerplate implements IsThemePlugin
             $response->setExpires(new \DateTime('+1 year'));
 
             return $response;
-        })->name('voyager-theme-boilerplate');
+        })->name('theme-boilerplate');
     }
 
     public function getSettingsView(): ?View
@@ -45,6 +45,6 @@ class VoyagerThemeBoilerplate implements IsThemePlugin
 
     public function getStyleRoute(): string
     {
-        return route('voyager-theme-boilerplate');
+        return route('theme-boilerplate');
     }
 }

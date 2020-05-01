@@ -1,5 +1,5 @@
 {
-    "name": "voyager-admin/voyager-theme-boilerplate",
+    "name": "voyager-admin/theme-boilerplate",
     "description": "A theme boilerplate for Voyager 2",
     "license": "MIT",
     "authors": [
@@ -13,14 +13,14 @@
     },
     "autoload": {
         "psr-4": {
-            "VoyagerAdmin\\VoyagerThemeBoilerplate\\": "src/"
+            "VoyagerAdmin\\ThemeBoilerplate\\": "src/"
         }
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "VoyagerAdmin\\VoyagerThemeBoilerplate\\VoyagerThemeBoilerplateServiceProvider"
+                "VoyagerAdmin\\ThemeBoilerplate\\ThemeBoilerplateServiceProvider"
             ]
         }
     }
