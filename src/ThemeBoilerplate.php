@@ -1,11 +1,11 @@
 <?php
 
-namespace VoyagerAdmin\ThemeBoilerplate;
+namespace Voyager\ThemeBoilerplate;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Route;
 use Illuminate\View\View;
-use TCG\Voyager\Contracts\Plugins\IsThemePlugin;
+use Voyager\Admin\Contracts\Plugins\IsThemePlugin;
 
 class ThemeBoilerplate implements IsThemePlugin
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace VoyagerAdmin\ThemeBoilerplate;
+namespace Voyager\ThemeBoilerplate;
 
 use Illuminate\Support\ServiceProvider;
-use TCG\Voyager\Facades\Plugins as PluginFacade;
+use Voyager\Admin\Facades\Plugins as PluginFacade;
 
 class ThemeBoilerplateServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        PluginFacade::addPlugin(\VoyagerAdmin\ThemeBoilerplate\ThemeBoilerplate::class);
+        PluginFacade::addPlugin(\Voyager\ThemeBoilerplate\ThemeBoilerplate::class);
     }
 
     public function register()
