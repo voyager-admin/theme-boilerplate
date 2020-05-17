@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "tcg/voyager": "2.x-dev"
+        "voyager-admin/admin": "2.x-dev"
     },
     "autoload": {
         "psr-4": {
