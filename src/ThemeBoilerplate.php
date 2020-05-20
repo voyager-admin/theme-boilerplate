@@ -5,9 +5,9 @@ namespace Voyager\ThemeBoilerplate;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Route;
 use Illuminate\View\View;
-use Voyager\Admin\Contracts\Plugins\IsThemePlugin;
+use Voyager\Admin\Contracts\Plugins\ThemePlugin;
 
-class ThemeBoilerplate implements IsThemePlugin
+class ThemeBoilerplate implements ThemePlugin
 {
     public $name = 'Theme boilerplate';
     public $description = 'A theme boilerplate for Voyager 2';

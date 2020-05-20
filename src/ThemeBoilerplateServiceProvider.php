@@ -3,13 +3,13 @@
 namespace Voyager\ThemeBoilerplate;
 
 use Illuminate\Support\ServiceProvider;
-use Voyager\Admin\Facades\Plugins as PluginFacade;
+use Voyager\Admin\Manager\Plugins as PluginManager;
 
 class ThemeBoilerplateServiceProvider extends ServiceProvider
 {
-    public function boot()
+    public function boot(PluginManager $pluginmanager)
     {
-        PluginFacade::addPlugin(\Voyager\ThemeBoilerplate\ThemeBoilerplate::class);
+        $pluginmanager->addPlugin(\Voyager\ThemeBoilerplate\ThemeBoilerplate::class);
     }
 
     public function register()
