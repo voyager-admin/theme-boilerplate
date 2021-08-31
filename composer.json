@@ -1,6 +1,7 @@
 {
     "name": "voyager-admin/theme-boilerplate",
     "description": "A theme boilerplate for Voyager 2",
+    "keywords": ["voyager2-plugin"],
     "license": "MIT",
     "authors": [
         {
