@@ -1,5 +1,5 @@
 # Voyager theme boilerplate
-This repository serves as a starting point to develop a custom theme plugin for Voyager 2.
+This repository serves as a starting point to develop a custom theme plugin for Voyager II.
 
 
 To create your own style, fork this repository then run `composer install` and `npm install`.  
